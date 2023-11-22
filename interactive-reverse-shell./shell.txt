@@ -1,0 +1,5 @@
+1.revshell first
+2.python3 -c 'import pty;pty.spawn("/bin/bash")'
+Ctrl + Z
+3.stty raw -echo; fg
+4.export TERM=xterm
